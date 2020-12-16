@@ -19,12 +19,18 @@
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="0.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 -2.0 -3" radius="0.15" height="1.5" rotation="90 0 0" color="#FFC65D"></a-cylinder>
-      <a-cylinder position="1 -2.0 -3" radius="0.159" height="0.010" rotation="90 0 0" color="#0016FD"></a-cylinder>
+      <a-cylinder position="1 -2.0 -3" radius="0.17" height="0.010" rotation="90 0 0" color="#0016FD"></a-cylinder>
+      <a-text
+        value="W1"
+        look-at="[gps-camera]"
+        scale="1 1 1"
+        position="1 -1.0 -3"
+      ></a-text>
       
       <a-text
         value="Marker!"
         look-at="[gps-camera]"
-        scale="120 120 120"
+        scale="12 12 12"
         gps-entity-place="latitude: 51.278190; longitude: -113.706708;"
       ></a-text>
       <a-camera gps-camera rotation-reader> </a-camera>
